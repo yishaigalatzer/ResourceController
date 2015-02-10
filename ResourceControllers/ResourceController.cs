@@ -2,7 +2,7 @@
 
 namespace WebApiResourceCentricService
 {
-    [VerbControllerConvention]
+    // [VerbControllerConvention] - This can be applied here, or in startup.cs
     public abstract class ResourceController : Controller
     {
     }

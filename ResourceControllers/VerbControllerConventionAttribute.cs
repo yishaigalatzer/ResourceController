@@ -50,6 +50,5 @@ namespace WebApiResourceCentricService
             // If no convention matches, then assume POST
             action.HttpMethods.Add("POST");
         }
-
     }
 }
